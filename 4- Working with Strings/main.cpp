@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //cout<< "Giraffe Academy \n";
+    //cout<< "Hello" << endl;
+
+    string phrase = "Giraffe Academy";
+    cout << phrase << endl;
+    cout << phrase.length() << endl;
+    cout << phrase[0] << endl;
+    cout << phrase[5] << endl;
+    phrase[0] = 'o';
+    cout << phrase << endl;
+
+    cout << phrase.find("Academy", 0) << endl;
+
+
+    return 0;
+}

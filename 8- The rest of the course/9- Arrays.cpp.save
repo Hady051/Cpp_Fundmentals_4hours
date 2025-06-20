@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int luckyNumbers[] = {4, 8, 15, 16, 22, 43};
+
+    cout << luckyNumbers[0] << endl; // choose the index of the element
+    //cout << luckyNumbers[-1] << endl; // does not work
+    
+    // changing elements in the array
+    luckyNumbers[0] = 19;
+
+    cout << luckyNumbers[0] << endl;
+
+    // assigning the number of elements to the array
+    int luckyNumbers[20] = {};
+    
+    
+    return 0;
+}
